@@ -6,8 +6,8 @@ const app = express();
 const dotenv = require("dotenv").config();
 const { appendFile } = require("fs");
 
-const client = new MongoClient("mongodb://localhost:27017");
-const port = process.eventNames.PORT || 3002;
+const client = new MongoClient(process.env.MONGODB_URL);
+const port = process.env.PORT;
 
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(express.static(path.resolve(__dirname, "public")));
