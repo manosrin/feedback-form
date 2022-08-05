@@ -7,7 +7,7 @@ const dotenv = require("dotenv").config();
 const { appendFile } = require("fs");
 const { resolve } = require("path");
 
-const client = new MongoClient(process.env.MONGODB_URL);
+const client = new MongoClient(process.env.CUSTOMCONNSTR_MONGODB_URL);
 const port = process.env.PORT;
 
 app.use(bodyParser.urlencoded({ extended: false }));
