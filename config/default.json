@@ -1,0 +1,14 @@
+[
+  {
+    "Dev": {
+      "dbConfig": {
+        "host": "mongodb://127.0.0.1:27017"
+      }
+    },
+    "Prod": {
+      "dbConfig": {
+        "host": "mongodb://my-cosmosdb-account-dev:AoyFOAgItj7w5t3DyK1AHrRiuSNPgU4GevQ26Hote2aPJ5AgAkNnCDpEXOogi9EoJltGg3W9jBzfcqpq92tJRw==@my-cosmosdb-account-dev.mongo.cosmos.azure.com:10255/?ssl=true&replicaSet=globaldb&retrywrites=false&maxIdleTimeMS=120000&appName=@my-cosmosdb-account-dev@"
+      }
+    }
+  }
+]
